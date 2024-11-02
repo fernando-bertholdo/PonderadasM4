@@ -5,14 +5,14 @@ https://www.tinkercad.com/things/5DPjNpYH1iN/editel?returnTo=%2Fdashboard
 
 ##### Imagem da montagem física do projeto
 
-![Montagem física do semáforo offline. (buzzer desconetado para maior conforto dos colegas)](<Programação/Semáforo offline montagem física protoboard com LEDs conectados.jpg>)
+![Montagem física do semáforo offline. (buzzer desconetado para maior conforto dos colegas)](<Semáforo offline montagem física protoboard com LEDs conectados.jpg>)
 
 ##### Vídeo demonstrado ao solução básica requerida
 
-<video controls src="Programação/Semáforo offline básico como pede a ponderada.mp4" title="Title"></video>
+<video controls src="Semáforo offline básico como pede a ponderada.mp4" title="Title"></video>
 
 ##### Vídeo demonstrando o projeto indo além
-<video controls src="Programação/Semáforo offline indo além.mp4" title="Title"></video>
+<video controls src="Semáforo offline básico como pede a ponderada.mp4" title="Title"></video>
 
 Para ir além, afora a adição da funcionalidade de aumento de segurança através do countdown anunciado pelp buzzer, consertei a lógica do semáforo, saltando do farol vermelho direto para o verde, sem que passe antes pelo amarelo.
 

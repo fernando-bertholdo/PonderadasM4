@@ -1,19 +1,7 @@
 #### Link do projeto no Tinkercad
 https://www.tinkercad.com/things/5DPjNpYH1iN/editel?returnTo=%2Fdashboard
 
----
-##### Imagem da montagem física do projeto
 
-![Montagem física do semáforo offline. (buzzer desconetado para maior conforto dos colegas)](<Programação/Semáforo offline montagem física protoboard com LEDs conectados.jpg>)
-
-##### Vídeo demonstrado ao solução básica requerida
-
-<video controls src="Programação/Semáforo offline básico como pede a ponderada.mp4" title="Title"></video>
-
-##### Vídeo demonstrando o projeto indo além
-<video controls src="Programação/Semáforo offline indo além.mp4" title="Title"></video>
-
----
 ## Relato da Montagem e Conexões do Semáforo
 
 Para a montagem do semáforo, utilizei uma **protoboard** para organizar os componentes, incluindo três LEDs (vermelho, amarelo e verde) que representam as fases do semáforo para veículos, um buzzer para sinal sonoro e resistores para proteção dos LEDs. Cada LED foi conectado a um pino digital do Arduino para controle individual, e o buzzer foi conectado para emitir um aviso sonoro nos últimos segundos da fase verde, conforme a lógica de trânsito programada.
@@ -40,13 +28,13 @@ Essa montagem foi feita de forma organizada na protoboard, facilitando o entendi
 | LED Amarelo      | Indica a fase de atenção (amarelo)                     |
 | LED Verde        | Indica a fase de avanço (verde)                        |
 | Resistor         | Limita a corrente dos LEDs                             |
-| Buzzer     | Emite som para contagem regressiva na fase verde       |
+| Buzzer Piezo     | Emite som para contagem regressiva na fase verde       |
 | Protoboard       | Facilita a montagem dos componentes sem solda          |
 | Arduino Uno      | Controla as fases do semáforo e o buzzer               |
 
 ---
 
-Essa montagem e programação permitem simular o comportamento de um semáforo com um aviso sonoro nos últimos segundos do verde, tornando o sistema mais próximo de semáforos reais e simulado um aumento da segurança de sinalização para veículos e pedestres.
+Essa montagem e programação permitem simular o comportamento de um semáforo com um aviso sonoro nos últimos segundos do verde, tornando o sistema mais próximo de semáforos reais e aumentando a segurança da sinalização para veículos e pedestres.
 
 ---
 
